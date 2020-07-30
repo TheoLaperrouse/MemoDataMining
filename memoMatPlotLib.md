@@ -12,4 +12,8 @@ df['col1'].plot.kde()
 
 ### Diagramme à secteurs
 
-df['col1'].value_counts().plot.pie()
+df['col1'].value_counts().plot.pie(figsize=(longueur, hauteur))
+
+### Affichage Diagramme
+
+plt.show()

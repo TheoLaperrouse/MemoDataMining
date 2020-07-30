@@ -10,6 +10,10 @@ import pandas as pd
 
 df = pd.read_csv('nomFichier')
 
+### Récupérer les infos du Set de Data
+
+df.info()
+
 ### Choisir une ou plusieurs colonnes
 
 colonne = df['col1']
@@ -30,4 +34,4 @@ print(df['col1'].sort_values())
 
 ### Lister les objets d'une colonne correspondant à une valeur
 
-df.loc[df['col1']== "valeur" ,:]
+df.loc[df['col1']== "valeur" A,:]
