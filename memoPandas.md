@@ -2,7 +2,7 @@
 
 ## Fonctions classiques
 
-### Import 
+### Import
 
 import pandas as pd
 
@@ -12,7 +12,12 @@ df = pd.read_csv('nomFichier')
 
 ### Récupérer les infos du Set de Data
 
-df.info()
+df.info() pour avoir les infos globales
+df.shape() pour avoir la taille du dataFrame
+
+### Montrer les 5 premières valeurs du Set de Data
+
+df.head()
 
 ### Choisir une ou plusieurs colonnes
 
@@ -34,4 +39,4 @@ print(df['col1'].sort_values())
 
 ### Lister les objets d'une colonne correspondant à une valeur
 
-df.loc[df['col1']== "valeur" A,:]
+df.loc[df['col1']== "valeur",:]
